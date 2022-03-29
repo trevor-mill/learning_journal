@@ -1,6 +1,6 @@
 # Today I learned
 
-## How to post directly to my learning blog via github
+#### How to post directly to my learning blog via github
 
 > Your focus determines your reality.
 >
