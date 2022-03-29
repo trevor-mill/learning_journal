@@ -11,11 +11,11 @@ Here are (at least) three things I learned from [The Ruby Koans](http://rubykoan
  2. like this
  3. nailed it
 
- ##### how to make headings
+##### how to make headings
  
  
  ---
  and horizontal rules
- ---
+
 
 
