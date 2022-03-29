@@ -1,4 +1,6 @@
- ### AppDev2 Lecture 1 Notes
+---
+
+## AppDev2 Lecture 1 Notes
 
 ___
 #### Quick notes
