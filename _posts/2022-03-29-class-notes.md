@@ -1,4 +1,4 @@
- # AppDev2 Lecture 1 Notes
+ ### AppDev2 Lecture 1 Notes
 
 ___
 #### Quick notes
@@ -34,7 +34,7 @@ RESTful routes:
  - most of our routes will just involve these **resource declarations**, but we will still need to create one-off routes here and there for specific actions we need to perform outside of the golden 7, basic CRUD functions
 
 ---
-#### Rails 'render' vs 'redirect'
+#### Rails `render` vs `redirect`
  - use and abuse instance variables when multiple actions are using the same view template
      - `@the_movie = Movie.new` is a hack for a view template that inserts a new movie into the database, for instance
  - rather than redirecting on a form submission error, a more friendly UX is to re-render the form with the user's inputs pre-filled into the form fields so that they may make whichever adjustments are needed to pass the validation requirements to be created into the database with our CRUD flow
