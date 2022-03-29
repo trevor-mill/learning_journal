@@ -4,20 +4,20 @@
 
 ___
 #### Quick notes
-Generators give us a head start on boiler plate code. There are many available through various GEMs.
+ - Generators give us a head start on boiler plate code. There are many available through various GEMs.
 
-`Post` vs. `get` methods for routes:
- - `get` is the default routing method for `routes.rb`
- - a look into the server log reveals that `get` stores the request in a query string, whereas `post` stores in the headers
- - the tradeoff is that `get` supports text only (because the query string must fit into the URL), and there is therefore a length limit
+ - `Post` vs. `get` methods for routes:
+  - `get` is the default routing method for `routes.rb`
+  - a look into the server log reveals that `get` stores the request in a query string, whereas `post` stores in the headers
+  - the tradeoff is that `get` supports text only (because the query string must fit into the URL), and there is therefore a length limit
 
-RESTful routes:
- - widely accepted naming convention for routes that we should adopt
- - **never** use CRUD function names in URLs:
-     - `post("/movies")` vs `post("/insert_movies")`
-     - `post("/movies")` is a distinct route from `get("/movies")`
- - **HTTP verbs indicate what we want to do with the resource**
-     - `get`, `post`, `patch`, `delete`, etc
+ - RESTful routes:
+  - widely accepted naming convention for routes that we should adopt
+  - **never** use CRUD function names in URLs:
+      - `post("/movies")` vs `post("/insert_movies")`
+      - `post("/movies")` is a distinct route from `get("/movies")`
+  - **HTTP verbs indicate what we want to do with the resource**
+      - `get`, `post`, `patch`, `delete`, etc
 
 ---
 #### Rails shortcuts
