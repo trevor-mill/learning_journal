@@ -2,16 +2,16 @@
 title:               'Today I Learned'
 tagline:             'Notes to self about software development'
 description:         ''
-url:                 'https://appdev-projects.github.io/'
-baseurl:             'til/'
+url:                 'https://trevor-mill.github.io/'
+baseurl:             'learning_journal/'
 paginate:            5
 permalink:           pretty
 
 # About/contact
 author:
-  name:              Raghu Betina
-  url:               https://twitter.com/raghubetina
-  email:             raghu@firstdraft.com
+  name:              Trevor Million
+  url:               
+  email:             trevor.million@chicagobooth.edu
 
 # Gems
 plugins:
