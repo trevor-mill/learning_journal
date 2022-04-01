@@ -6,7 +6,7 @@ title: AppDev2 notes from lecture 1
 ---
 
 
-#### Quick notes
+### Quick notes
 
 - Generators give us a head start on boiler plate code. There are many available through various GEMs.
 - `Post` vs. `get` methods for routes:
@@ -23,7 +23,7 @@ title: AppDev2 notes from lecture 1
      - `get`, `post`, `patch`, `delete`, etc
 
 ---
-#### Rails shortcuts
+### Rails shortcuts
 - `.html.erb` is a default file type and we do not need to specify it in our view templates or routes
 - the `render` method does not require a Hash literal
     - `render("movies/new")` rather than `render({ :template => "movies/new.html.erb" })`
@@ -32,20 +32,20 @@ title: AppDev2 notes from lecture 1
 - the golden 7 routes
 
 ---
-#### Rails resources
+### Rails resources
  - we no longer need to write out routes for our 7 standard RESTful routes (!!!)
      - `resources(:directors)` will populate our 7 conventional routes automatically for the resource / data table in question (`directors` in this instance)
      - do this in the `routes.rb` file
  - most of our routes will just involve these **resource declarations**, but we will still need to create one-off routes here and there for specific actions we need to perform outside of the golden 7, basic CRUD functions
 
 ---
-#### Rails `render` vs `redirect`
+### Rails `render` vs `redirect`
  - use and abuse instance variables when multiple actions are using the same view template
      - `@the_movie = Movie.new` is a hack for a view template that inserts a new movie into the database, for instance
  - rather than redirecting on a form submission error, a more friendly UX is to re-render the form with the user's inputs pre-filled into the form fields so that they may make whichever adjustments are needed to pass the validation requirements to be created into the database with our CRUD flow
      - we need to display our error messages on the appropriate view template for the user so they know what to edit...
 
 ---
-#### Next steps
+### Next steps
  - Ruby Koans assignment
 
