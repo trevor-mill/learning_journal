@@ -1,6 +1,6 @@
 # Setup
 title:               'Today I Learned'
-tagline:             'Notes to self about software development'
+tagline:             'Notes to self along my journey of learning to program'
 description:         ''
 url:                 'https://trevor-mill.github.io/'
 baseurl:             'learning_journal/'
