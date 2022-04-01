@@ -1,5 +1,3 @@
----
-
 ## AppDev2 Lecture 1 Notes
 
 ___
