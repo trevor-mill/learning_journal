@@ -2,7 +2,10 @@
 
 layout: post
 title: AppDev2 notes from lecture 1
-___
+
+---
+
+
 #### Quick notes
 
 - Generators give us a head start on boiler plate code. There are many available through various GEMs.
