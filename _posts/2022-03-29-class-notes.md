@@ -1,5 +1,7 @@
-## AppDev2 Lecture 1 Notes
+---
 
+layout: post
+title: AppDev2 notes from lecture 1
 ___
 #### Quick notes
 
