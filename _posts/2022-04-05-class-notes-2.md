@@ -9,6 +9,8 @@ title: AppDev2 notes from lecture 2
     - for a `form`, create a hidden input with `name` = `authenticity_token` and `value` = `<% form_authenticity_token %>`
     - include on all forms that use a `post` or `patch` method; allows for authenticated user to execute desired action
 
+---
+
 ##### A few loose ends
 ###### ActiveRecord_Relations
 - use `[]` to index arrays and ActiveRecord_Relations rather than `.at()` (which is not a method natively supported for Relations)
