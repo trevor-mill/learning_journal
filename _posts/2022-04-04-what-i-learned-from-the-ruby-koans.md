@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Three things I learned from The Ruby Koans
+title: A few things I learned from The Ruby Koans
 ---
 
 Here are some things I learned from working through [The Ruby Koans](http://rubykoans.com/):
