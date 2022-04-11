@@ -1,3 +1,10 @@
+---
+
+layout: post
+title: Introductory notes about Rails tests
+
+---
+
 #### Key takeaways
 - There are no restrictions to the number of assertions allowed by a test; a test only passes when all assertions are satisfied.
 - **Test-Driven Development (TDD)**: write a test that fails for a desired functionality, write the code that adds the desired functionality, ensure that test passes
