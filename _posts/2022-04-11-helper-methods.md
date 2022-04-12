@@ -12,8 +12,9 @@ We can now name routes with a `prefix`, which can then be called with the `_path
 
 Prefixes can be viewed using the `rails routes` rake task, or by navigating from the `bin/server` webpage to the `/rails/info` URL to see all routes (names will be in the first column under "Prefix/URL"). A named route looks like this (on `routes.rb`, "details" is the desired path prefix):
 
-
-> get "/movies/:id" => "movies#show", as: :movie
+```
+get "/movies/:id" => "movies#show", as: :movie
+```
 
 
 #### Streamlining controller codebase syntax
@@ -22,12 +23,16 @@ To further streamline the codebase, we can abbreviate controller syntax to omit 
 #### `link_to` helper method
 This helper method allows us to avoid writing `<a>` elements within embedded Ruby templates. Before and after:
 
->  <a href="<%= new_movie_path %>">Add a new movie</a>   #before
->  <%= link_to "Add a new movie", new_movie_path %>   #after
+```
+<a href="<%= new_movie_path %>">Add a new movie</a>   #before
+<%= link_to "Add a new movie", new_movie_path %>   #after
+```
 
 This can be streamlined if we have a named route helper method for the Class in question, where an ActiveRecord object can be passed into the argument instead:
 
-> <%= link_to "Add a new movie", a_movie %>
+```
+<%= link_to "Add a new movie", a_movie %>
+```
 
 As long as RESTful routes are created and everything has been built conventionally, _voila_! This adds a lot of flexibility when working with new team members, for example; they don't need to know our URLs as long as we have followed convention in setting up the routes.
 
