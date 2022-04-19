@@ -14,6 +14,7 @@ This exercise entailed building an industrial-grade version of Photogram from sc
 - `ActiveRecord::Enum` can be used to formally declare the possible values for a given column (like follow request status in Photogram!). Enum stores either strings or integers for column values, assigned to specified keys. This also allows for `?` and `!` instance methods, and automatically defines positive and negative scopes that can later be used to help filter lists of records.
 
 - Ruby Faker is a helpful gem to use for data rake tasks! Check it out [here](https://github.com/faker-ruby/faker).
+
 ---
 
 ### Routing, partial templates, and ActiveRecord queries
@@ -24,6 +25,7 @@ This exercise entailed building an industrial-grade version of Photogram from sc
 - Routes are executed sequentially top-to-bottom in the routes controller; place the most ambiguous routes at the very bottom of the controller to prevent Rails from misinterpreting the desired route (`get "/:username"` near the top of the controller might try to take us to a user profile called "photos" when we try to follow the route for `"/photos"`, for instance).
 
 - When querying for records, use the `.find_by!` method to throw a 404 error if there is no record found, rather than a 500 error for a `nil` value getting passed from the `params` hash further down into the code.
+
 ---
 ### Questions
 1. What if we make a commit to the wrong `git` branch? (Committed front end changes to back end git, for example). Safest and most efficient way to assign commit to proper branch?
